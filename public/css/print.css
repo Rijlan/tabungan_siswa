@@ -1,0 +1,53 @@
+.container {
+    margin: 20px;
+}
+
+.print-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    page-break-inside: auto;
+    width: 90%;
+    border-collapse: collapse;
+}
+
+tr {
+    page-break-inside: avoid;
+    page-break-after: auto;
+}
+
+thead {
+    display: table-row-group;
+    border-bottom: 2px solid black;
+}
+
+tfoot {
+    display: table-row-group;
+    border-top: 2px solid black;
+}
+
+th, td {
+    padding: 10px;
+}
+
+tfoot th {
+    text-align: left;
+}
+
+.t-center {
+    text-align: center;
+}
+
+.t-right {
+    text-align: right;
+}
+
+.print-header {
+    padding: 10px;
+    margin: 0 0 25px 0;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
